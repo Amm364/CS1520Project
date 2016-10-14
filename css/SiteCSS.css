@@ -1,0 +1,135 @@
+.header-text{
+  padding-top: 17px;
+  font-size: 40px;
+  font-family: "Arial";
+}
+
+header{
+  height: 80px;
+  background-color: maroon;
+}
+
+body{
+  background-color: lightblue;
+  height: 1000px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: -40px;
+  margin-bottom: 0
+}
+
+footer{
+  background-color: maroon;
+  height: 50px;
+  position: relative;
+  margin-top: 5px;
+  padding: 10px;
+}
+
+.text{
+  color: black;
+  text-align: center;
+  font-family: "Arial";
+}
+
+#paragraph1{
+  font-weight: 900;
+}
+
+.pittImage{
+  position: absolute;
+  margin-left: 5px;
+}
+
+.head{
+  color: gold;
+  text-align: center;
+}
+
+.left-index{
+  background-color: maroon;
+  position: absolute;
+  margin: 5px;
+  height: 840px;
+  width: 200px;
+  border: 5px solid gold;
+  text-align: center;
+}
+
+.button{
+  border: 2px solid gold;
+  padding: 5px 15px;
+  text-align: center;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: "Arial";
+  color: gold;
+}
+
+#svButton{
+  background-color: maroon;
+}
+
+#pittButton{
+  background-color: #0000cd;
+}
+
+#steelersButton{
+  background-color: black;
+}
+
+#colorChange{
+  position: absolute;
+  height: 35px;
+  margin-top: 0;
+  margin-left: 0;
+  padding: 17px;
+  padding-left: 28px;
+}
+
+#leftIndexText{
+  text-align: center;
+  margin-top: 0;
+  font-size: 16px;
+  font-weight: 300;
+  padding-top: 10px;
+  color: gold;
+}
+
+.main-div{
+  margin-left: 225px;
+  margin-top: 5px;
+  margin-bottom: 0;
+  height: 840px;
+  border: 5px solid gold;
+  background-color: #DCDCDC;
+}
+
+.heading{
+  text-align: center;
+}
+
+#getName{
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 0;
+}
+
+.list-item{
+  font-weight: 500;
+  font-family: "Arial";
+  font-size: 16px;
+}
+
+#nameText{
+  color: gold;
+  font-family: 600;
+}
+
+#revealName{
+  padding:4px;
+  display: none;
+  color: gold;
+  font-weight: 600;
+}
