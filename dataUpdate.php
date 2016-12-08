@@ -1,16 +1,9 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Poll Results</title>
-  </head>
-  <body>
-  <br>
-  <br>
-  <h2 class="poll-header" id="headerPoll">These are the current results for the poll!</h2>
-  <?php
+<?php
   $games = $_POST["game"];
   $number = count($games);
+  if ($number==0){
+    echo "Error";
+  }
   $db = new mysqli("localhost","root","","games");
   if ($db->connect_error){
     echo "Error";
@@ -21,9 +14,8 @@
     $db->query($sql);
   }
   $results=$db->query("SELECT * FROM games");
+  echo "<h2 class='res'>Poll Results</h2>";
   while ($row = $results->fetch_assoc()){
-    echo $row["Name"] . " Votes:" . $row["Count"] . "<br>";
+    echo "<p class='res' >" . $row["Name"] . " - Votes: " . $row["Count"] . "</p>";
   }
-  ?>
-  </body>
-</html>
+?>

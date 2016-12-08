@@ -55,46 +55,78 @@
     </div>
     <div class="main-div" id="Interests">
       <h1 class="heading" id="headingInterest">Interests</h1>
-      <p class="div-text" id="interestText">This is where I'm going to put my interests!</p>
+      <ul class="list" id="interestList">
+        <li class="list-item">I am a big fan of video games, and I have been for most of my life.</li>
+        <li class="list-item">I love programming. I'm currently programming in Python, Javascript, and PHP.</li>
+        <li class="list-item">I love chocolate and ice cream!</li>
+        <li class="list-item">Chipotle is amazing, and is also where I used to work.</li>
+        <li class="list-item">I like to hang out with my friends and learn new things.</li>
+        <li class="list-item">I like to Golf when I get the chance and the weather is nice.</li>
+      </ul>
     </div>
     <div class="main-div" id="Sports">
       <h1 class="heading" id="headingSports">Sports</h1>
-      <p class="div-text" id="sportsText">This is where I'll put cool sports stuff!</p>
+      <ul class="list" id="sportsList">
+        <li class="list-item">I like to watch Hockey, Football, and Golf.</li>
+        <li class="list-item">My 2 favorite hockey teams to watch are the Pittsburgh Penguins and the San Jose Sharks.</li>
+        <li class="list-item">My favorite hockey players are Sidney Crosby, Evgeni Malkin, and Phil Kessel</li>
+        <li class="list-item">My favorite football team is the Pittsburgh Steelers.</li>
+        <li class="list-item">My favorite football player is Antonio Brown.</li>
+        <li class="list-item">My favorite golfers to watch is Tiger Woods, Rickie Fowler, Jordan Speith, and Jason Day.</li>
+      </ul>
     </div>
     <div class="main-div" id="Memes">
       <h1 class="heading" id="headingMemes">Memes</h1>
-      <p class="div-text" id="memesText">This is where I'll put the dankest memes!</p>
+      <image class="im" id="meme1" src="images/fry.png"></image>
+      <image class="im" id="meme2" src="images/gnome.png"></image>
+      <image class="im" id="meme2" src="images/fish.png"></image>
+      <image class="im" id="meme2" src="images/kermit.png"></image>
+      <image class="im" id="meme2" src="images/joe.png"></image>
+      <image class="im" id="meme2" src="images/prog.png"></image>
     </div>
     <div class="main-div" id="Games">
       <h1 class="heading" id="headingGames">Games</h1>
-      <p class="div-text" id="gamesText">This is where I'll put the best games!</p>
+      <ul class="list" id="gamesList">
+        <li class="list-item">I love to play video games in my free time.</li>
+        <li class="list-item">I play on the Xbox One and occasionally on PC.</li>
+        <li class="list-item">Some of the games I play on Xbox One are Smite, Battlefield 1, Final Fantasy 15, Fallout 4, Halo 5, and Call of Duty.</li>
+        <li class="list-item">Some of the games I play on PC are Civilization 5, Stardew Valley, and Terraria</li>
+        <li class="list-item">I also like to play board games.</li>
+        <li class="list-item">Some board games I have played are Settlers of Catan, Pandemic, Dead of Winter, Mice of Mystics, and Shadows of Camelot.</li>
+      </ul>
     </div>
     <div class="main-div" id="Poll">
       <h1 class="heading" id="headingPoll">Poll</h1>
       <p>Which of these games was your favorite to play this year?</p>
       <form class="poll" id="pollForm" method="post">
-        <input type="checkbox" name="game[]" value="Overwatch">Overwatch<br>
-        <input type="checkbox" name="game[]" value="Call of Duty">Call of Duty<br>
-        <input type="checkbox" name="game[]" value="The Witcher 3">The Witcher 3<br>
-        <input type="checkbox" name="game[]" value="Rocket League">Rocket League<br>
-        <input type="checkbox" name="game[]" value="Smite">Smite<br>
-        <input type="checkbox" name="game[]" value="League of Legends">League of Legends<br>
-        <input type="checkbox" name="game[]" value="Fallout 4">Fallout 4<br>
-        <input type="checkbox" name="game[]" value="Civilization 6">Civilization 6<br>
-        <input type="checkbox" name="game[]" value="Battlefield 1">Battlefield 1<br>
-        <input type="checkbox" name="game[]" value="Titanfall 2">Titanfall 2<br>
-        <input type="checkbox" name="game[]" value="Halo 5">Halo 5<br>
-        <input type="checkbox" name="game[]" value="Gears of War 4">Gears of War 4<br>
-        <input type="checkbox" name="game[]" value="Skyrim">Skyrim<br>
-        <input type="checkbox" name="game[]" value="Destiny">Destiny<br>
-        <input type="checkbox" name="game[]" value="Dishonored 2">Dishonored 2<br>
-        <input type="checkbox" name="game[]" value="Dark Souls 3">Dark Souls 3<br>
-        <input type="checkbox" name="game[]" value="Pokemon">Pokémon<br>
-        <input type="checkbox" name="game[]" value="Super Smash Bros">Super Smash Bros<br>
-        <input type="checkbox" name="game[]" value="The Division">The Division<br>
-        <input type="checkbox" name="game[]" value="Other">Other<br>
+        <input class="check" type="checkbox" name="game[]" value="Overwatch">Overwatch<br>
+        <input class="check" type="checkbox" name="game[]" value="Call of Duty">Call of Duty<br>
+        <input class="check" type="checkbox" name="game[]" value="The Witcher 3">The Witcher 3<br>
+        <input class="check" type="checkbox" name="game[]" value="Rocket League">Rocket League<br>
+        <input class="check" type="checkbox" name="game[]" value="Smite">Smite<br>
+        <input class="check" type="checkbox" name="game[]" value="League of Legends">League of Legends<br>
+        <input class="check" type="checkbox" name="game[]" value="Fallout 4">Fallout 4<br>
+        <input class="check" type="checkbox" name="game[]" value="Civilization 6">Civilization 6<br>
+        <input class="check" type="checkbox" name="game[]" value="Battlefield 1">Battlefield 1<br>
+        <input class="check" type="checkbox" name="game[]" value="Titanfall 2">Titanfall 2<br>
+        <input class="check" type="checkbox" name="game[]" value="Halo 5">Halo 5<br>
+        <input class="check" type="checkbox" name="game[]" value="Gears of War 4">Gears of War 4<br>
+        <input class="check" type="checkbox" name="game[]" value="Skyrim">Skyrim<br>
+        <input class="check" type="checkbox" name="game[]" value="Destiny">Destiny<br>
+        <input class="check" type="checkbox" name="game[]" value="Dishonored 2">Dishonored 2<br>
+        <input class="check" type="checkbox" name="game[]" value="Dark Souls 3">Dark Souls 3<br>
+        <input class="check" type="checkbox" name="game[]" value="Pokemon">Pokémon<br>
+        <input class="check" type="checkbox" name="game[]" value="Super Smash Bros">Super Smash Bros<br>
+        <input class="check" type="checkbox" name="game[]" value="The Division">The Division<br>
+        <input class="check" type="checkbox" name="game[]" value="Other">Other<br>
         <input type="button" name="submit" value="Submit" onclick="useAjax()">
+        <p class="completed-text" id="completed">Thank you for voting!</p>
       </form>
+    </div>
+    <div class="main-div" id="Results">
+      <fieldset class="field">
+        <p class="div-text" id="resultText"></p>
+      </fieldset>
     </div>
     <div class="right-index" id="rightIndex">
       <image class="cathy" id="cathy" src="images/cathy.png"></image>

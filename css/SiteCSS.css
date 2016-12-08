@@ -225,3 +225,27 @@ footer{
 .poll-header{
   margin-top: 40px;
 }
+
+#completed{
+  display: none
+}
+
+#Results{
+  display: none;
+}
+
+.res{
+  font-weight: bold;
+  margin: 0 0;
+  text-align: left;
+}
+
+.field{
+  margin: 10px 300px;
+}
+
+.im{
+  width: 250px;
+  height: 250px;
+  margin: 15px 15px;
+}

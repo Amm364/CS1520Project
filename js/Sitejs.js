@@ -52,13 +52,15 @@ function navigation(choice){
   currentDiv=choice;
 }
 
-function useAjax() {    //function that uses ajax to get the json object
+function useAjax() {
   $.ajax({
-    type: 'GET',
+    type: "POST",
     url: "dataUpdate.php",
-  })
-    .done(function (data) {
-      $(".main-div").style.display="none"
-      $(".data-output").style.display="block"
-    })
+    data: $('.check:checked').serialize(),
+    success:  function(data){
+      $("#Poll").hide();
+      $("#resultText").html(data);
+      $("#Results").show();
+    }
+  });
 }
